@@ -22,4 +22,7 @@ class Application(tk.Frame):
 
 root = tk.Tk()
 app = Application(master=root)
+
+app.master.title("Hello World")
+app.master.geometry("400x400")
 app.mainloop()
