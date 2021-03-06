@@ -18,7 +18,7 @@ class Application(tk.Frame):
 
         self.quit = tk.Button(self, text="QUIT", fg="red",
                               command=self.master.destroy)
-        self.quit.pack(side="bottom")
+        self.quit.pack(side="right")
 
     #create button functions here
     def say_hi(self): 
@@ -29,7 +29,7 @@ app = Application(master=root) #creates the application
 
 #Window modifactions
 app.master.title("Hello World") #Sets window title
-app.master.geometry("400x400") #sets Window Size
+app.master.geometry("1960x1080") #sets Window Size
 
 
 
