@@ -1,12 +1,15 @@
 import tkinter as tk
 
 class Application(tk.Frame):
+
+    #initiallising the object
     def __init__(self, master=None):
         super().__init__(master)
         self.master = master
         self.pack()
         self.create_widgets()
 
+    #insert widgets for application here
     def create_widgets(self):
         self.hi_there = tk.Button(self)
         self.hi_there["text"] = "Hello World\n(click me)"
@@ -17,12 +20,17 @@ class Application(tk.Frame):
                               command=self.master.destroy)
         self.quit.pack(side="bottom")
 
-    def say_hi(self):
+    #create button functions here
+    def say_hi(self): 
         print("hi there, everyone!")
 
-root = tk.Tk()
-app = Application(master=root)
+root = tk.Tk() #instansting the window
+app = Application(master=root) #creates the application
 
-app.master.title("Hello World")
-app.master.geometry("400x400")
+#Window modifactions
+app.master.title("Hello World") #Sets window title
+app.master.geometry("400x400") #sets Window Size
+
+
+
 app.mainloop()
