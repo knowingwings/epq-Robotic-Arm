@@ -1,0 +1,28 @@
+# CAD
+*.f3d.lock
+*.stl.1
+*.step.1
+~$*.xlsx
+~$*.docx
+
+# Arduino
+*.hex
+*.elf
+*.eep
+*.lss
+*.map
+*.sym
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.bak
+*~
