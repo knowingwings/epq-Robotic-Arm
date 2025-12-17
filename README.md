@@ -4,17 +4,15 @@ A-Level Extended Project Qualification (EPQ) - Grade: A*
 
 ## Project Overview
 
-This project involved the complete design, manufacture, and control of a 6 degree-of-freedom robotic manipulator from first principles. The arm features custom-designed strain wave (harmonic drive) gearing for high torque density and backlash-free motion.
+This project involved the complete design and manufacture of a 6 degree-of-freedom robotic manipulator from first principles. The arm features custom-designed strain wave (harmonic drive) gearing for high torque density and backlash-free motion.
 
 **Key achievements:**
-- Full kinematic chain design with 6 DOF
 - Custom strain wave gearboxes designed and 3D printed
-- Inverse kinematics implementation
 - Arduino-based motion control
 - Iterative mechanical design through multiple prototypes (Mk1 to Mk4)
 - Complete CAD modeling in Fusion 360
 
-**Project duration:** 2022-2023 (A-Level final year)
+**Project duration:** Sep 2020- April 2022 (A-Level final year)
 
 ## Technical Specifications
 
@@ -91,9 +89,9 @@ epq-Robotic-Arm/
 - Refined flexspline flexibility
 
 **Mk4:** Final iteration
-- Optimized harmonic drive geometry
+- Optimised harmonic drive geometry
 - Improved structural rigidity
-- Finalized assembly process
+- Finalised assembly process
 - Validated payload capacity
 
 ### Control System
@@ -122,7 +120,6 @@ This project provided hands-on experience in:
 - Iterative prototyping methodology
 
 **Software Engineering:**
-- Inverse kinematics algorithms
 - Real-time motor control
 - Arduino programming in C++
 - Serial communication protocols
@@ -210,4 +207,4 @@ This project was completed as part of A-Level coursework. Code and designs provi
 
 ---
 
-*This repository documents my first significant robotics project at age 17-18. While the implementation is early-stage, the project demonstrates fundamental engineering problem-solving and hands-on skills that have continued to develop through my degree programs.*
+*This repository documents my first significant robotics project at age 16-18. While the implementation is early-stage, the project demonstrates fundamental engineering problem-solving and hands-on skills that have continued to develop through my degree programs.*
